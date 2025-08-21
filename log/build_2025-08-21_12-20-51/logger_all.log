@@ -1,0 +1,277 @@
+[0.807s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.808s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70f7f0c23f70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70f7f0c23970>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70f7f0c23970>>)
+[1.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.883s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jason/chapt7/chapt7_ws'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['ignore', 'ignore_ament_install']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ignore'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ignore_ament_install'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['colcon_pkg']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'colcon_pkg'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['colcon_meta']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'colcon_meta'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['ros']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ros'
+[2.008s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/fishbot_application': Error(s) in package 'src/fishbot_application/package.xml':
+The manifest contains invalid XML:
+not well-formed (invalid token): line 15, column 3
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['cmake', 'python']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'cmake'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'python'
+[2.009s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/fishbot_application' passes arguments to the setup() function which requires a different identification extension than 'python'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['python_setup_py']
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'python_setup_py'
+[3.805s] ERROR:colcon.colcon_core.package_identification:Exception in package identification extension 'python_setup_py' in 'src/fishbot_application': Command '['/usr/bin/python3', '-c', 'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/package_identification/__init__.py", line 144, in _identify
+    retval = extension.identify(_reused_descriptor_instance)
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 48, in identify
+    config = get_setup_information(setup_py)
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information
+    _setup_information_cache[hashable_env] = _get_setup_information(
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information
+    result = subprocess.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '-c', 'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))']' returned non-zero exit status 1.
+
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extensions ['ignore', 'ignore_ament_install']
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extension 'ignore'
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extension 'ignore_ament_install'
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extensions ['colcon_pkg']
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extension 'colcon_pkg'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extensions ['colcon_meta']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extension 'colcon_meta'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extensions ['ros']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extension 'ros'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extensions ['cmake', 'python']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extension 'cmake'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extension 'python'
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extensions ['python_setup_py']
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/fishbot_application) by extension 'python_setup_py'
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extensions ['ignore', 'ignore_ament_install']
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extension 'ignore'
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extension 'ignore_ament_install'
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extensions ['colcon_pkg']
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extension 'colcon_pkg'
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extensions ['colcon_meta']
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extension 'colcon_meta'
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extensions ['ros']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extension 'ros'
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extensions ['cmake', 'python']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extension 'cmake'
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extension 'python'
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extensions ['python_setup_py']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/resource) by extension 'python_setup_py'
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extensions ['ignore', 'ignore_ament_install']
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extension 'ignore'
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extension 'ignore_ament_install'
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extensions ['colcon_pkg']
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extension 'colcon_pkg'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extensions ['colcon_meta']
+[3.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extension 'colcon_meta'
+[3.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extensions ['ros']
+[3.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extension 'ros'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extensions ['cmake', 'python']
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extension 'cmake'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extension 'python'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extensions ['python_setup_py']
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application/test) by extension 'python_setup_py'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore_ament_install'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_pkg']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_pkg'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_meta']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_meta'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ros']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ros'
+[3.844s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_description' with type 'ros.ament_cmake' and name 'fishbot_description'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore_ament_install'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_pkg']
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_pkg'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_meta']
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_meta'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ros']
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ros'
+[3.846s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[3.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/jason/chapt7/chapt7_ws/install
+[4.012s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/humble
+[4.022s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.339s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_args' from command line to 'None'
+[4.340s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[4.340s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.341s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[4.341s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[4.341s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[4.341s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[4.341s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[4.341s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.342s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/chapt7/chapt7_ws/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/chapt7/chapt7_ws/install/fishbot_description', 'merge_install': False, 'path': '/home/jason/chapt7/chapt7_ws/src/fishbot_description', 'symlink_install': False, 'test_result_base': None}
+[4.343s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[4.344s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[4.344s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.344s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[4.344s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[4.344s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[4.344s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[4.344s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[4.344s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.344s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/chapt7/chapt7_ws/build/fishbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2', 'merge_install': False, 'path': '/home/jason/chapt7/chapt7_ws/src/fishbot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[4.345s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.354s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/chapt7/chapt7_ws/src/fishbot_description' with build type 'ament_cmake'
+[4.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/chapt7/chapt7_ws/src/fishbot_description'
+[4.367s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.392s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/chapt7/chapt7_ws/src/fishbot_navigation2' with build type 'ament_cmake'
+[4.393s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/chapt7/chapt7_ws/src/fishbot_navigation2'
+[4.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/chapt7/chapt7_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/chapt7/chapt7_ws/build/fishbot_description -- -j4 -l4
+[4.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/chapt7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/chapt7/chapt7_ws/build/fishbot_navigation2 -- -j4 -l4
+[4.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/chapt7/chapt7_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/chapt7/chapt7_ws/build/fishbot_description -- -j4 -l4
+[4.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/chapt7/chapt7_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/chapt7/chapt7_ws/build/fishbot_description
+[4.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/chapt7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/chapt7/chapt7_ws/build/fishbot_navigation2 -- -j4 -l4
+[4.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/chapt7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/chapt7/chapt7_ws/build/fishbot_navigation2
+[4.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[4.806s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description' for CMake module files
+[4.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/chapt7/chapt7_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/chapt7/chapt7_ws/build/fishbot_description
+[4.811s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description' for CMake config files
+[4.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[4.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[4.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[4.839s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description/bin'
+[4.840s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[4.841s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description/lib/python3.10/site-packages'
+[4.841s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description/bin'
+[4.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[4.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[4.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[4.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[4.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[4.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[4.903s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[4.906s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description' for CMake module files
+[4.908s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description' for CMake config files
+[4.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[4.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[4.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[4.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[4.944s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description/bin'
+[4.944s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[4.944s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description/lib/python3.10/site-packages'
+[4.951s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_description/bin'
+[4.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[4.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[4.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[4.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[4.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[4.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/chapt7/chapt7_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[4.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[4.971s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2' for CMake module files
+[4.978s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2' for CMake config files
+[4.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/chapt7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/chapt7/chapt7_ws/build/fishbot_navigation2
+[4.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[4.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[4.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[4.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[4.994s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/bin'
+[5.003s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[5.005s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[5.005s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/bin'
+[5.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[5.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[5.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[5.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[5.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[5.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[5.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[5.025s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2' for CMake module files
+[5.033s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2' for CMake config files
+[5.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[5.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[5.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[5.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[5.040s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/bin'
+[5.041s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[5.041s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[5.042s] Level 1:colcon.colcon_core.environment:checking '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/bin'
+[5.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[5.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[5.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[5.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[5.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[5.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/chapt7/chapt7_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[5.059s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.063s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.064s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.188s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.188s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.189s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.191s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.194s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.195s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/chapt7/chapt7_ws/install/local_setup.ps1'
+[5.202s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jason/chapt7/chapt7_ws/install/_local_setup_util_ps1.py'
+[5.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/chapt7/chapt7_ws/install/setup.ps1'
+[5.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/chapt7/chapt7_ws/install/local_setup.sh'
+[5.246s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jason/chapt7/chapt7_ws/install/_local_setup_util_sh.py'
+[5.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/chapt7/chapt7_ws/install/setup.sh'
+[5.269s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/chapt7/chapt7_ws/install/local_setup.bash'
+[5.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/chapt7/chapt7_ws/install/setup.bash'
+[5.287s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/chapt7/chapt7_ws/install/local_setup.zsh'
+[5.295s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/chapt7/chapt7_ws/install/setup.zsh'

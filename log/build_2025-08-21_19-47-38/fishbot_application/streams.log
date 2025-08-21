@@ -1,0 +1,37 @@
+[1.590s] Invoking command in '/home/jason/chapt7/robot/src/fishbot_application': PYTHONPATH=/home/jason/chapt7/robot/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/jason/chapt7/robot/build/fishbot_application/build install --record /home/jason/chapt7/robot/build/fishbot_application/install.log --single-version-externally-managed install_data
+[1.961s] running egg_info
+[1.963s] writing ../../build/fishbot_application/fishbot_application.egg-info/PKG-INFO
+[1.963s] writing dependency_links to ../../build/fishbot_application/fishbot_application.egg-info/dependency_links.txt
+[1.964s] writing entry points to ../../build/fishbot_application/fishbot_application.egg-info/entry_points.txt
+[1.964s] writing requirements to ../../build/fishbot_application/fishbot_application.egg-info/requires.txt
+[1.965s] writing top-level names to ../../build/fishbot_application/fishbot_application.egg-info/top_level.txt
+[1.968s] reading manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.969s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.970s] running build
+[1.970s] running build_py
+[1.970s] copying fishbot_application/waypoint_follower.py -> /home/jason/chapt7/robot/build/fishbot_application/build/lib/fishbot_application
+[1.971s] copying fishbot_application/get_robot_pose.py -> /home/jason/chapt7/robot/build/fishbot_application/build/lib/fishbot_application
+[1.971s] copying fishbot_application/init_robot_pose.py -> /home/jason/chapt7/robot/build/fishbot_application/build/lib/fishbot_application
+[1.971s] copying fishbot_application/nav_to_pose.py -> /home/jason/chapt7/robot/build/fishbot_application/build/lib/fishbot_application
+[1.972s] running install
+[1.972s] running install_lib
+[1.973s] copying /home/jason/chapt7/robot/build/fishbot_application/build/lib/fishbot_application/waypoint_follower.py -> /home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.974s] copying /home/jason/chapt7/robot/build/fishbot_application/build/lib/fishbot_application/get_robot_pose.py -> /home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.974s] copying /home/jason/chapt7/robot/build/fishbot_application/build/lib/fishbot_application/init_robot_pose.py -> /home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.975s] copying /home/jason/chapt7/robot/build/fishbot_application/build/lib/fishbot_application/nav_to_pose.py -> /home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.976s] byte-compiling /home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/waypoint_follower.py to waypoint_follower.cpython-310.pyc
+[1.977s] byte-compiling /home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/get_robot_pose.py to get_robot_pose.cpython-310.pyc
+[1.978s] byte-compiling /home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/init_robot_pose.py to init_robot_pose.cpython-310.pyc
+[1.979s] byte-compiling /home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+[1.980s] running install_data
+[1.980s] copying package.xml -> /home/jason/chapt7/robot/install/fishbot_application/share/fishbot_application
+[1.981s] running install_egg_info
+[1.983s] removing '/home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info' (and everything under it)
+[1.986s] Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+[1.989s] running install_scripts
+[2.016s] Installing get_robot_pose script to /home/jason/chapt7/robot/install/fishbot_application/lib/fishbot_application
+[2.017s] Installing init_robot_pose script to /home/jason/chapt7/robot/install/fishbot_application/lib/fishbot_application
+[2.017s] Installing nav_to_pose script to /home/jason/chapt7/robot/install/fishbot_application/lib/fishbot_application
+[2.017s] Installing waypoint_follower script to /home/jason/chapt7/robot/install/fishbot_application/lib/fishbot_application
+[2.018s] writing list of installed files to '/home/jason/chapt7/robot/build/fishbot_application/install.log'
+[2.066s] Invoked command in '/home/jason/chapt7/robot/src/fishbot_application' returned '0': PYTHONPATH=/home/jason/chapt7/robot/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jason/chapt7/robot/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/jason/chapt7/robot/build/fishbot_application/build install --record /home/jason/chapt7/robot/build/fishbot_application/install.log --single-version-externally-managed install_data

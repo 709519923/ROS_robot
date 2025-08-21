@@ -1,0 +1,17 @@
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/environment/path.sh
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/environment/path.dsv
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/local_setup.bash
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/local_setup.sh
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/local_setup.zsh
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/local_setup.dsv
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/package.dsv
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+/home/jason/chapt6_ws/fishbot_description/install/fishbot_description/share/fishbot_description/package.xml
