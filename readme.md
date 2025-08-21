@@ -20,12 +20,12 @@ Obstacle avoidance
 SLAM Capabilities: Simultaneous Localization and Mapping
 Visualization: Comprehensive Rviz2 configuration
 ## Prerequisites
-ROS2 Humble
-Gazebo (Garden or newer)
-Navigation2
-colcon
-xacro
-tf2
+- ROS2 Humble
+- Gazebo (Garden or newer)
+- Navigation2
+- colcon
+- xacro
+- tf2
 ## Installation
 1. Create a ROS2 workspace:
 ```bash
