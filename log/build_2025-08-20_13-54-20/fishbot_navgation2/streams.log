@@ -1,5 +1,0 @@
-[0.036s] Invoking command in '/home/jason/chapt7/chapt7_ws/build/fishbot_navgation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/chapt7/chapt7_ws/build/fishbot_navgation2 -- -j4 -l4
-[0.073s] [0mCMake Error: The source directory "/home/jason/chapt7/chapt7_ws/src/fishbot_navgation2" does not exist.
-[0.073s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.074s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.078s] Invoked command in '/home/jason/chapt7/chapt7_ws/build/fishbot_navgation2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/chapt7/chapt7_ws/build/fishbot_navgation2 -- -j4 -l4

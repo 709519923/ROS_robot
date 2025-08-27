@@ -11,14 +11,14 @@ This repository contains a complete simulation stack for a differential drive ro
 
 The robot is equipped with essential sensors (LiDAR, IMU, and odometry) to enable SLAM and navigation in unknown environments.
 ## Features
-Accurate Dynamics: Realistic differential drive kinematics and dynamics
-Sensor Simulation: LiDAR, IMU, and wheel odometry
-Autonomous Navigation:
-Single point goal navigation
-Waypoint following
-Obstacle avoidance
-SLAM Capabilities: Simultaneous Localization and Mapping
-Visualization: Comprehensive Rviz2 configuration
+- Accurate Dynamics: Realistic differential drive kinematics and dynamics
+- Sensor Simulation: LiDAR, IMU, and wheel odometry
+- Autonomous Navigation:
+ - Single point goal navigation
+ - Waypoint following
+ - Obstacle avoidance
+- SLAM Capabilities: Simultaneous Localization and Mapping
+- Visualization: Comprehensive Rviz2 configuration
 ## Prerequisites
 - ROS2 Humble
 - Gazebo (Garden or newer)
@@ -50,24 +50,63 @@ colcon build
 source install/setup.bash
 ```
 ## Usage
-### Basic Simulation
-Launch the robot in a Gazebo environment:
+### SLAM
+Open four terminals and enter the following commands respectively:
 ```bash
-ros2 launch ?????????????
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
+ros2 launch fishbot_description gazebo_sim.launch.py
+ros2 run rviz2 rviz2 
+ ros2 run teleop_twist_keyboard  teleop_twist_keyboard
 ```
 
-### Navigation
 
+### Navigation
+- singlepoint navigation
+
+
+- waypoint navigation
 
 
 ## Project Structure
-
-
-
+1.导航相关节点
+2.模型相关文件
+3.rviz2 with nav2框架
+└── src
+    ├── fishbot_application
+    │   ├── fishbot_application  //node
+    │   ├── package.xml 
+    │   ├── resource
+    │   ├── setup.cfg
+    │   ├── setup.py   //register node
+    │   └── test
+    ├── fishbot_description
+    │   ├── CMakeLists.txt
+    │   ├── LICENSE
+    │   ├── build
+    │   ├── config   //rviz2 config. & ros2_controller config.
+    │   ├── include
+    │   ├── 
+    │   ├── 
+    │   ├── log
+    │   ├── package.xml
+    │   ├── src
+    │   ├── urdf    //structure description for robot model 
+    │   └── world   // maps description for gazebo
+    └── fishbot_navigation2
+        ├── CMakeLists.txt
+        ├── config
+        ├── include
+        ├── launch
+        ├── maps  //SLAM maps
+        ├── package.xml
+        └── src
 ## Screenshots
-
-
-
+### SLAM
+![SLAM](./SLAM.gif)
+### Single Point Navigation
+![singlePointNav](./singlePointNav.gif)
+### Waypoint Navigation
+![waypointnav](./waypointnav.gif)
 ## Acknowledgments
 - ROS2 Documentation
 - Navigation2 Framework
