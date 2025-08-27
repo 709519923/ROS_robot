@@ -56,16 +56,26 @@ Open four terminals and enter the following commands respectively:
 ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
 ros2 launch fishbot_description gazebo_sim.launch.py
 ros2 run rviz2 rviz2 
- ros2 run teleop_twist_keyboard  teleop_twist_keyboard
+ros2 run teleop_twist_keyboard  teleop_twist_keyboard
 ```
-
+move robot with teleop_twist_keyboard node until whole map info. is collected.
 
 ### Navigation
 - singlepoint navigation
-
+Open three terminals and enter the following commands respectively:
+```bash
+ros2 launch fishbot_description gazebo_sim.launch.py
+ros2 launch fishbot_navigation2 navigation2.launch.py
+ros2 run fishbot_application nav_to_pose
+```
 
 - waypoint navigation
-
+Open three terminals and enter the following commands respectively:
+```bash
+ros2 launch fishbot_description gazebo_sim.launch.py
+ros2 launch fishbot_navigation2 navigation2.launch.py
+ros2 run fishbot_application waypoint_follower
+```
 
 ## Project Structure
 ```bash
