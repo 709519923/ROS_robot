@@ -62,6 +62,7 @@ move robot with teleop_twist_keyboard node until whole map info. is collected.
 
 ### Navigation
 - singlepoint navigation
+
 Open three terminals and enter the following commands respectively:
 ```bash
 ros2 launch fishbot_description gazebo_sim.launch.py
@@ -70,6 +71,7 @@ ros2 run fishbot_application nav_to_pose
 ```
 
 - waypoint navigation
+
 Open three terminals and enter the following commands respectively:
 ```bash
 ros2 launch fishbot_description gazebo_sim.launch.py
