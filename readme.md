@@ -68,9 +68,7 @@ ros2 run rviz2 rviz2
 
 
 ## Project Structure
-1.导航相关节点
-2.模型相关文件
-3.rviz2 with nav2框架
+```bash
 └── src
     ├── fishbot_application
     │   ├── fishbot_application  //node
@@ -100,6 +98,7 @@ ros2 run rviz2 rviz2
         ├── maps  //SLAM maps
         ├── package.xml
         └── src
+```
 ## Screenshots
 ### SLAM
 ![SLAM](./SLAM.gif)
